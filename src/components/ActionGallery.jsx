@@ -12,13 +12,13 @@ import teamphoto from "../../static/teamphoto.png";
 const ActionGallery = () => {
   return (
     <div className="flex w-[80vw] mx-auto justify-evenly -z-10">
-      <Card variant="outlined"  class="p-4 border border-slate-950 rounded-lg w-[20vw]">
+      <Card variant="outlined"  class="p-4 border border-slate-950 rounded-lg w-[20vw] -z-10">
       <CardActionArea>
           <CardMedia
 
             image={transcendencephoto}
             title="Transcendence"
-            className="rounded-lg h-48 "
+            className="rounded-lg h-48"
           />
           <CardContent>
             <Typography component="div" class="mx-auto text-center rounded-lg">
@@ -30,7 +30,7 @@ const ActionGallery = () => {
           </CardContent>
           </CardActionArea>
       </Card>
-      <Card variant="outlined"  class="p-4 border border-slate-950 rounded-lg w-[20vw]">
+      <Card variant="outlined"  class="p-4 border border-slate-950 rounded-lg w-[20vw] -z-10">
       <CardActionArea>
           <CardMedia
             image={teamphoto}
