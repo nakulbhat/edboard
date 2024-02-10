@@ -7,7 +7,7 @@ const Bottom = () => {
   return (
     <div>
           <Footer container>
-      <div className="w-full mt-40">
+      <div className="w-full mt-10">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
             <Footer.Brand
