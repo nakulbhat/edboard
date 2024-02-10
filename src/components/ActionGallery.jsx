@@ -11,8 +11,8 @@ import teamphoto from "../../static/teamphoto.png";
 
 const ActionGallery = () => {
   return (
-    <div className="flex w-[80vw] mx-auto justify-evenly -z-10">
-      <Card variant="outlined"  class="p-4 border border-slate-950 rounded-lg w-[20vw] -z-10">
+    <div className="flex-row md:flex w-[80vw] mx-auto justify-evenly -z-10">
+      <Card variant="outlined"  class="p-4 border border-slate-950 rounded-lg w-[80vw] md:w-[20vw] mt-10 -z-10">
       <CardActionArea>
           <CardMedia
 
@@ -30,7 +30,7 @@ const ActionGallery = () => {
           </CardContent>
           </CardActionArea>
       </Card>
-      <Card variant="outlined"  class="p-4 border border-slate-950 rounded-lg w-[20vw] -z-10">
+      <Card variant="outlined"  class="p-4 border border-slate-950 rounded-lg w-[80vw] md:w-[20vw] mt-10 -z-10">
       <CardActionArea>
           <CardMedia
             image={teamphoto}
